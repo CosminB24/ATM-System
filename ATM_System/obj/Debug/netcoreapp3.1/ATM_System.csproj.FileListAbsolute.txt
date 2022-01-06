@@ -1,0 +1,17 @@
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.csproj.AssemblyReference.cache
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.Form1.resources
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.Properties.Resources.resources
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.csproj.GenerateResource.cache
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.AssemblyInfoInputs.cache
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.AssemblyInfo.cs
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.csproj.CoreCompileInputs.cache
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\bin\Debug\netcoreapp3.1\ATM_System.exe
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\bin\Debug\netcoreapp3.1\ATM_System.deps.json
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\bin\Debug\netcoreapp3.1\ATM_System.runtimeconfig.json
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\bin\Debug\netcoreapp3.1\ATM_System.runtimeconfig.dev.json
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\bin\Debug\netcoreapp3.1\ATM_System.dll
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\bin\Debug\netcoreapp3.1\ATM_System.pdb
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.dll
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.pdb
+C:\Users\Cosmin\Desktop\Programare\Proiecte\ATM System\ATM_System\ATM_System\obj\Debug\netcoreapp3.1\ATM_System.genruntimeconfig.cache
