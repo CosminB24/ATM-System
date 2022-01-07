@@ -12,6 +12,21 @@ namespace ATM_System
 {
     public partial class Form1 : Form
     {
+
+        string pin1="1111";
+        float suma1=4300.50f;
+
+        string pin2="2222";
+        float suma2=1200.10f;
+
+        string pin3="3333";
+        float suma3=300.50f;
+
+        int user_curent = 0;
+        float suma_user=0f;
+
+
+
         public Form1()
         {
             InitializeComponent();
@@ -49,8 +64,32 @@ namespace ATM_System
 
             if (CancelButton == DialogResult.Yes)
             {
-                Application.Exit();
-                    }
+
+                if (user_curent == 1)
+                    suma1 = suma_user;
+
+                if (user_curent == 2)
+                    suma2 = suma_user;
+
+
+                if (user_curent == 1)
+                    suma3 = suma_user;
+
+                //Delogare
+
+                user_curent = 0;
+                suma_user = 0f;
+
+                Sold.Visible = false;
+                pintext.Visible = true;
+                Retragere.Visible = false;
+                Depoziteaza.Visible = false;
+                lateral_drsus.Enabled = false;
+                lateral_drjos.Enabled = false;
+                lateral_sgsus.Enabled = false;
+                lateral_sgjos.Enabled = false;
+                Pinbox.Text = "";
+            }
                 
         }
 
@@ -119,12 +158,15 @@ namespace ATM_System
             tasta_enter.FlatStyle = FlatStyle.Flat;
             tasta_enter.FlatAppearance.BorderSize = 0;
 
-            String pin_1 = String.Format(Pinbox.Text);
-            String pin_2 = String.Format(Pinbox.Text);
-            String pin_3 = String.Format(Pinbox.Text);
+            String pin = String.Format(Pinbox.Text);
 
-            if (pin_1 == "0000")
+
+            if (pin == pin1)
             {
+
+                user_curent = 1;
+                suma_user = suma1;
+
                 Sold.Visible = true;
                 Retragere.Visible = true;
                 Depoziteaza.Visible = true;
@@ -134,8 +176,12 @@ namespace ATM_System
                 lateral_sgjos.Enabled = true;
                 lateral_sgsus.Enabled = true;
             }
-            else if (pin_2 == "1234")
+            else if (pin == pin2)
             {
+                user_curent = 2;
+                suma_user = suma2;
+
+
                 Sold.Visible = true;
                 Retragere.Visible = true;
                 Depoziteaza.Visible = true;
@@ -145,8 +191,12 @@ namespace ATM_System
                 lateral_sgjos.Enabled = true;
                 lateral_sgsus.Enabled = true;
             }
-            else if (pin_3 == "4321")
+            else if (pin == pin3)
             {
+                user_curent = 3;
+                suma_user = suma3;
+
+
                 Sold.Visible = true;
                 Retragere.Visible = true;
                 Depoziteaza.Visible = true;
@@ -156,7 +206,10 @@ namespace ATM_System
                 lateral_sgjos.Enabled = true;
                 lateral_sgsus.Enabled = true;
             }
-            else Pinbox.Text = "Pin invalid";
+            else
+            {
+                Pinbox.Text = "Pin invalid";
+            }
         }
 
         private void tasta7_Click(object sender, EventArgs e)
@@ -188,6 +241,7 @@ namespace ATM_System
 
         private void lateral_sgsus_Click(object sender, EventArgs e)
         {
+            Pinbox.Text = ""+  suma_user.ToString();
             lateral_sgsus.FlatStyle = FlatStyle.Flat;
             lateral_sgsus.FlatAppearance.BorderSize = 0;
         }
